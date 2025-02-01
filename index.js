@@ -12,7 +12,7 @@ app.get('/', (req, res) => {
   res.sendFile(resolve(__dirname, 'pages/index.html'));
 });
 
-app.get('/bd2', (req, res) => {
+app.get('/bd2', (req, res) => {//initial commit
   res.send('this is bd2');
 });
 
